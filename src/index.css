@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://i.pinimg.com/originals/42/bc/24/42bc24f06a040d28c0938335d876eca2.jpg");
+  /* background-color: rgb(63, 63, 63); */
+  /* background-image: url("https://images.hdqwalls.com/wallpapers/swimming-pool-water-dt.jpg"); */
 }
 
 code {

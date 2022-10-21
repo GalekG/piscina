@@ -25,6 +25,8 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +41,20 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+  <script>
+    $(document).ready(function(){       
+        var scroll_pos = 0;
+        $(document).scroll(function() {
+            scroll_pos = $(this).scrollTop();
+            if(scroll_pos > 75) {
+                $(".menu").css('background-color', 'white');
+                $(".menu").css('padding-bottom', 0);
+            } else {
+                $(".menu").css('background-color', 'black');
+            }
+        });
+    });
+  </script>
   </body>
 </html>
