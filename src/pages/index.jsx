@@ -2,7 +2,6 @@ const Index = () => {
   return (
     <div className="div_index">
       <h1>Centro Recreacional La Playita - Mocoa</h1>
-
       <div className="video_index">
         <iframe
           width="1280"

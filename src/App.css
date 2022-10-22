@@ -111,3 +111,7 @@
   margin: auto;
   display: block;
 }
+
+iframe {
+  pointer-events: none;
+}
