@@ -107,11 +107,11 @@
   text-align: center;
 }
 
-.video_index video{
+.react-player{
   margin: auto;
   display: block;
 }
 
-iframe {
+.video_index {
   pointer-events: none;
 }
