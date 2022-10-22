@@ -44,6 +44,7 @@
 
   <script>
     $(document).ready(function () {
+      $(".video_index").height(($(".video_index").width())*0.5625);
       var scroll_pos = 0;
       $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
