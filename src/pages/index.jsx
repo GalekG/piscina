@@ -7,7 +7,7 @@ const Index = () => {
         <iframe
           width="1280"
           height="720"
-          src="https://www.youtube.com/embed/Fm-ZzLoRWs0?autoplay=1&mute=1&controls=0&showinfo=0"
+          src="https://www.youtube.com/embed/Fm-ZzLoRWs0?loop=1&autoplay=1&mute=1&controls=0&showinfo=0"
           title="CRLAPLAYITA"
           frameborder="0"
         ></iframe>
