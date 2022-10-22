@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -43,17 +43,21 @@
     -->
 
   <script>
-    $(document).ready(function(){       
-        var scroll_pos = 0;
-        $(document).scroll(function() {
-            scroll_pos = $(this).scrollTop();
-            if(scroll_pos > 75) {
-                $(".menu").css('background-color', 'white');
-                $(".menu").css('padding-bottom', 0);
-            } else {
-                $(".menu").css('background-color', 'black');
-            }
-        });
+    $(document).ready(function () {
+      var scroll_pos = 0;
+      $(document).scroll(function () {
+        scroll_pos = $(this).scrollTop();
+        if (scroll_pos > 75) {
+          $(".menu").css('background-color', 'white');
+          $(".menu").css('padding-bottom', 0);
+        } else {
+          $(".menu").css('background-color', 'black');
+        }
+      });
+
+      window.onresize = ()=>{
+        $(".video_index").height(($(".video_index").width())*0.5625);
+      }
     });
   </script>
   </body>

@@ -107,11 +107,13 @@
   text-align: center;
 }
 
+.video_index {
+  pointer-events: none;
+  height: 720px;
+  min-width: 350px;
+}
+
 .react-player{
   margin: auto;
   display: block;
-}
-
-.video_index {
-  pointer-events: none;
 }
