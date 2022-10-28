@@ -111,8 +111,8 @@
   pointer-events: none;
   height: 720px;
   max-height: 720px;
-  min-width: 350px;
   max-width: 1280px;
+  min-width: 350px;
   margin: auto;
 }
 

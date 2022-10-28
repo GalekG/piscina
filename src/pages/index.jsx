@@ -1,12 +1,11 @@
 import YoutubePlayer from "../services/video";
-// import { useEffect } from "react";
+import { useEffect } from "react";
 
 const Index = () => {
 
-  // useEffect(()=>{
-  //   document.getElementById("video_index").style.width = 1280 + 'px';
-  //   document.getElementById("video_index").style.height = 720 + 'px';
-  //   }, []);
+  useEffect(()=>{
+    document.getElementById("video_index").style.height = (document.getElementById("video_index").offsetWidth * 0.5625) + 'px';
+  }, []);
 
   return (
     <div className="div_index">
