@@ -8,16 +8,13 @@ const header = () => {
             <Link className="link" to="/">Inicio</Link>
           </li>
           <li>
+            <Link className="link" to="dishes">Carta</Link>
+          </li>
+          <li>
             <Link className="link" to="location">Ubicacion</Link>
           </li>
           <li>
-            <Link className="link" to="projects">Proyectos</Link>
-          </li>
-          <li>
             <Link className="link" to="contact">Contacto</Link>
-          </li>
-          <li>
-            <Link className="link" to="retos">Retos</Link>
           </li>
           <hr/>
         </ul>
