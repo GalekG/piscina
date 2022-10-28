@@ -72,7 +72,7 @@
 .div_body {
   margin-top: 105px;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 25%;
   color: black;
 }
 
@@ -158,4 +158,24 @@
 .contact_items li:hover {
   background-color: rgba(0, 0, 0, 0.122);
   border-radius: 90px;
+}
+
+.div_lateral {
+  position: absolute;
+  right: 3%;
+  top: 16%;
+}
+
+@media screen and (max-width: 1630px) {
+  .div_lateral {
+    position: inherit;
+    margin-left: 10%;
+    margin-right: 25%;
+    margin-top: 30px;
+    width: 70%;
+    text-align: center;
+  }
+  .div_body {
+    margin-right: 10%;
+  }
 }
